@@ -4,185 +4,415 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Austin Reinhardt — Portfolio</title>
-  <meta name="description" content="Portfolio of Austin Reinhardt — Software Project Manager & Startup Mentor based in St. Louis, MO." />
+  <meta name="description" content="Software Project Manager & Business Systems Analyst in St. Louis, MO." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap hero">
-      <div class="avatar" aria-hidden="true"></div>
-      <div>
-        <h1 class="title">Austin Reinhardt</h1>
-        <p class="tagline">Software Project Manager & Startup Mentor · St. Louis, MO</p>
-        <nav aria-label="Primary" class="nav">
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </nav>
+
+  <!-- Ribbon with hyperlinks -->
+  <div class="ribbon" role="navigation" aria-label="Top links">
+    <div class="wrap inner">
+      <div class="brand">
+        <div class="badge" aria-hidden="true"></div>
+        <a href="#" style="text-decoration:none">Home</a>
       </div>
+      <nav>
+        <a href="#experience">Experience</a>
+        <a href="#right-col">Education</a>
+        <a href="#right-col">Skills</a>
+        <a href="#right-col">Volunteer</a>
+        <a href="mailto:austin@example.com">Email</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+        <a href="resume.pdf" target="_blank" rel="noopener">Resume</a>
+      </nav>
     </div>
+  </div>
+
+  <!-- Page header -->
+  <header class="wrap page-head">
+    <h1>Austin Reinhardt</h1>
+    <p class="sub">Software Project Manager and Business Systems Analyst — St. Louis, MO</p>
   </header>
 
-  <main class="wrap">
-    <section id="about" class="section">
-      <h2>About</h2>
-      <div class="card">
-        <p>
-          I improve systems and ship outcomes. My background blends business analysis, service operations,
-          and hands-on software project management. I’m focused on process standardization, automation,
-          and clear communication across stakeholders. I mentor early-stage founders and am comfortable
-          moving between technical details and business goals.
-        </p>
+  <!-- Two-column layout -->
+  <main class="wrap main">
 
-        <ul class="highlights" aria-label="Highlights">
-          <li class="pill">Backlog & Process Refinement</li>
-          <li class="pill">Automation & Dashboards</li>
-          <li class="pill">Stakeholder Alignment</li>
-          <li class="pill">Startup Coaching</li>
+    <!-- LEFT: Experience -->
+    <section id="experience" class="card">
+      <div class="section-title">
+        <h2>Professional Experience</h2><span></span>
+      </div>
+
+      <article class="job">
+        <div class="role">Software Project Manager — Odyssi Goals · Freelance</div>
+        <div class="meta">Sep 2023 to May 2024 · 9 months · Greater St. Louis · Hybrid</div>
+
+        <div class="kicker">Agile implementation</div>
+        <ul class="list">
+          <li>Taught software development lifecycle within Scrum and configured an ERP suite for performance insights</li>
         </ul>
-      </div>
 
-      <div class="grid cols-2">
-        <div class="card">
-          <h3 class="subhead">Experience (selected)</h3>
-          <ul class="list">
-            <li><strong>Software Project Manager / Mentor</strong> — Odyssi Goals</li>
-            <li><strong>Billing / Business Systems (Charter/Spectrum)</strong> — data + ops exposure</li>
-            <li><strong>Service Ops Leadership</strong> — hospitality & continuous improvement</li>
+        <div class="kicker">Sprint planning</div>
+        <ul class="list">
+          <li>Facilitated events, led refinement, clarified definition of done, prepared iteration layouts, and ran sprint reviews</li>
+        </ul>
+
+        <div class="kicker">Product backlog maintenance</div>
+        <ul class="list">
+          <li>Created a Kanban system to visualize status and improve story pointing by clarifying story integration</li>
+        </ul>
+
+        <div class="kicker">Product roadmapping</div>
+        <ul class="list">
+          <li>Worked with founders and developers to set product vision and prioritize features for app updates</li>
+        </ul>
+
+        <div class="kicker">Analytics</div>
+        <ul class="list">
+          <li>Generated APIs for Google Analytics and Mixpanel and used Excel and SQL for validation and reporting</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <div class="role">Software Information Technology Business Analyst — Spectrum</div>
+        <div class="meta">Nov 2022 to Dec 2023 · 1 year 2 months · St. Louis, Missouri · Hybrid</div>
+
+        <div class="kicker">Jira integration</div>
+        <ul class="list">
+          <li>Redefined statuses and rebuilt the pipeline and team Kanban which increased efficiency by 23 percent</li>
+        </ul>
+
+        <div class="kicker">Salesforce admin</div>
+        <ul class="list">
+          <li>Created page layouts to simplify customer usage and access across the CRM stack</li>
+        </ul>
+
+        <div class="kicker">Process analysis and implementation</div>
+        <ul class="list">
+          <li>Introduced new refinement practices that improved session performance by 180 percent</li>
+        </ul>
+
+        <div class="kicker">Backlog refinement</div>
+        <ul class="list">
+          <li>Cleared 89 percent of a 1,200 item backlog and rewrote 116 stories to align to vision</li>
+        </ul>
+
+        <div class="kicker">Onboarding</div>
+        <ul class="list">
+          <li>Mentored two new team members with a hands-on curriculum and job shadowing program</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <div class="role">Management Associate — Menards</div>
+        <div class="meta">Aug 2021 to Mar 2022 · 8 months</div>
+        <div class="kicker">Sales and modeling</div>
+        <ul class="list"><li>Closed daily sales from three to twelve thousand and produced 3D kitchen remodels</li></ul>
+        <div class="kicker">Supply chain and coordination</div>
+        <ul class="list"><li>Maintained inventory and directed daily task sheets for associates</li></ul>
+      </article>
+
+      <article class="job">
+        <div class="role">Foreign and Domestic Diplomacy Case Worker — United States Senate</div>
+        <div class="meta">Aug 2021 to Dec 2021 · 5 months</div>
+        <div class="kicker">Intake and advocacy</div>
+        <ul class="list">
+          <li>Produced feedback loops on legislation impact and supported Social Security, citizenship, and aid forms</li>
+          <li>Coordinated documentation for refugee support during Afghanistan relief efforts</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <div class="role">Social Media Manager — Southern Illinois University, Carbondale</div>
+        <div class="meta">Jan 2021 to Aug 2021 · 8 months</div>
+        <ul class="list">
+          <li>Led College of IT campaigns and outreach events and managed a seven platform calendar</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <div class="role">Library Admin — Books-A-Million</div>
+        <div class="meta">Oct 2018 to Jan 2021 · 2 years 4 months · Edwardsville</div>
+        <ul class="list">
+          <li>Sold two hundred memberships and created displays to raise awareness of new inventory</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- RIGHT: Education + Skills + Volunteer -->
+    <aside id="right-col" class="stack">
+
+      <section class="card edu">
+        <div class="section-title">
+          <h2>Education</h2><span></span>
+        </div>
+        <p class="school">Southern Illinois University, Carbondale</p>
+        <p class="detail">Bachelor’s in Business Administration · 2019 to 2021 · Carbondale</p>
+
+        <p class="school">Southwestern Illinois College</p>
+        <p class="detail">Associate’s in Business Administration · 2017 to 2019 · Belleville</p>
+      </section>
+
+      <section class="card skills-block">
+        <div class="section-title">
+          <h2>Technical skills</h2><span></span>
+        </div>
+
+        <div class="skills-group">
+          <h3>Data queries and reports</h3>
+          <ul class="ul-clean">
+            <li>Excel, SQL, Google Analytics, Mixpanel</li>
           </ul>
         </div>
 
-        <div class="card">
-          <h3 class="subhead">Education & Training</h3>
-          <ul class="list">
-            <li>Southern Illinois University Carbondale — Business studies</li>
-            <li>Full-stack upskilling — modern HTML/CSS/JS, Git/GitHub</li>
+        <div class="skills-group">
+          <h3>Data visualization</h3>
+          <ul class="ul-clean">
+            <li>Power BI, Tableau, Access, Visio</li>
           </ul>
         </div>
-      </div>
-    </section>
 
-    <section id="skills" class="section">
-      <h2>Skills</h2>
-      <div class="card table-card">
-        <table>
-          <caption class="sr-only">Skills and proficiency</caption>
-          <thead>
-            <tr>
-              <th scope="col">Skill / Tool</th>
-              <th scope="col">Proficiency</th>
-              <th scope="col">Notes</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>HTML &amp; CSS</td>
-              <td>
-                <div class="meter" style="--pct:85%"><i aria-hidden="true"></i></div>
-                <span class="sr-only">85% proficiency</span>
-              </td>
-              <td>Responsive layouts, accessible semantics</td>
-            </tr>
-            <tr>
-              <td>JavaScript</td>
-              <td>
-                <div class="meter" style="--pct:70%"><i></i></div>
-                <span class="sr-only">70% proficiency</span>
-              </td>
-              <td>DOM patterns, fetch, modular structure</td>
-            </tr>
-            <tr>
-              <td>Process Mapping</td>
-              <td>
-                <div class="meter" style="--pct:90%"><i></i></div>
-                <span class="sr-only">90% proficiency</span>
-              </td>
-              <td>Swimlanes, SIPOC, KPIs</td>
-            </tr>
-            <tr>
-              <td>Git &amp; GitHub</td>
-              <td>
-                <div class="meter" style="--pct:80%"><i></i></div>
-                <span class="sr-only">80% proficiency</span>
-              </td>
-              <td>Branching, PRs, reviews</td>
-            </tr>
-            <tr>
-              <td>SQL</td>
-              <td>
-                <div class="meter" style="--pct:60%"><i></i></div>
-                <span class="sr-only">60% proficiency</span>
-              </td>
-              <td>Queries, joins, cleanup</td>
-            </tr>
-            <tr>
-              <td>Stakeholder Management</td>
-              <td>
-                <div class="meter" style="--pct:85%"><i></i></div>
-                <span class="sr-only">85% proficiency</span>
-              </td>
-              <td>Cross-functional facilitation</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <section id="projects" class="section">
-      <h2>Projects</h2>
-      <div class="grid cols-2">
-        <article class="card project">
-          <h3 class="subhead">Odyssi Goals</h3>
-          <p>Coaching toolset and goal-tracking framework for founders. Contributed project planning,
-            lightweight automations, and content workflows.</p>
-          <ul class="tags">
-            <li>Mentorship</li><li>Automation</li><li>Content Ops</li>
+        <div class="skills-group">
+          <h3>Enterprise resource planning</h3>
+          <ul class="ul-clean">
+            <li>Jira, Salesforce, Mailchimp, SurveyMonkey, Monday</li>
           </ul>
-        </article>
+        </div>
 
-        <article class="card project">
-          <h3 class="subhead">Ops Standardization</h3>
-          <p>Mapped current-state processes, removed redundancies, and improved turnaround time for
-            request handling and reporting consistency.</p>
-          <ul class="tags">
-            <li>Process</li><li>KPI</li><li>Playbooks</li>
+        <div class="section-title" style="margin-top:14px">
+          <h2>Skills and concepts</h2><span></span>
+        </div>
+
+        <div class="skills-group">
+          <h3>Managerial</h3>
+          <ul class="ul-clean">
+            <li>Agile methodology, Lean Six Sigma, Business Process Model and Notation, Scrum</li>
           </ul>
-        </article>
-      </div>
-    </section>
+        </div>
 
-    <section id="contact" class="section">
-      <h2>Contact</h2>
-      <div class="card">
-        <!-- For a static-only submission, leave action blank or point to a service like Formspree once ready -->
-        <form action="" method="post" class="form">
-          <div class="row two">
-            <label>
-              <span class="label">Your Name</span>
-              <input type="text" name="name" placeholder="Jane Doe" required />
-            </label>
-            <label>
-              <span class="label">Email</span>
-              <input type="email" name="email" placeholder="jane@example.com" required />
-            </label>
-          </div>
-          <label class="block">
-            <span class="label">Message</span>
-            <textarea name="message" placeholder="Hi Austin, I’d like to connect about…"
-              required></textarea>
-          </label>
-          <button type="submit">Send Message</button>
-        </form>
-        <p class="form-tip">Tip: when you’re ready, connect this form to Formspree or Netlify Forms.</p>
-      </div>
-    </section>
+        <div class="skills-group">
+          <h3>Interpersonal</h3>
+          <ul class="ul-clean">
+            <li>Leadership, adaptability, responsibility, critical thinking, motivation</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="card vol">
+        <div class="section-title">
+          <h2>Volunteer</h2><span></span>
+        </div>
+
+        <p class="org">Events Coordinator and Facilitator — Founders Lounge Global</p>
+        <p class="area">Dec 2023 to Present · Economic empowerment</p>
+        <ul class="ul-clean">
+          <li>Network development for Fireside Chat series with regional speakers</li>
+          <li>Program development for applications, speaker pipeline, and event standards</li>
+          <li>Interviewing and moderating conversations with leaders and entrepreneurs</li>
+        </ul>
+
+        <p class="org">Program Manager — Southern Illinois University Edwardsville</p>
+        <p class="area">Aug 2023 to May 2024 · Education</p>
+        <ul class="ul-clean">
+          <li>Coordinated speaker events and managed communications for volunteers</li>
+          <li>Facilitated interviews and collaborative workshops for students</li>
+        </ul>
+
+        <p class="org">Outreach Specialist — Southern Illinois University, Carbondale</p>
+        <p class="area">Aug 2019 to May 2020 · Education</p>
+        <ul class="ul-clean">
+          <li>Organized student events and socials to build community engagement</li>
+        </ul>
+
+        <p class="org">Environmental Cleanup — Phi Mu Alpha Sinfonia</p>
+        <p class="area">Mar 2021 to Dec 2021 · Environment</p>
+        <ul class="ul-clean">
+          <li>Neighborhood beautification and street cleanup to improve campus areas</li>
+        </ul>
+      </section>
+
+    </aside>
   </main>
 
   <footer class="site-footer">
     <div class="wrap">
-      <small>© 2025 Austin Reinhardt. All rights reserved.</small>
+      <p>© 2025 Austin Reinhardt</p>
     </div>
   </footer>
+
 </body>
 </html>
+
+<!-- Contact Footer -->
+<footer class="contact-footer" role="contentinfo">
+  <div class="contact-wrap">
+    <h2 class="contact-title">Contact me</h2>
+
+    <form class="contact-form" action="" method="post" novalidate>
+      <div class="row">
+        <label class="field">
+          <span class="label">Full name</span>
+          <input type="text" name="name" autocomplete="name" required />
+        </label>
+
+        <label class="field">
+          <span class="label">Email</span>
+          <input type="email" name="email" autocomplete="email" required />
+        </label>
+      </div>
+
+      <div class="row">
+        <label class="field">
+          <span class="label">Company (optional)</span>
+          <input type="text" name="company" autocomplete="organization" />
+        </label>
+
+        <label class="field">
+          <span class="label">Phone (optional)</span>
+          <input type="text" name="phone" autocomplete="tel" />
+        </label>
+      </div>
+
+      <label class="field">
+        <span class="label">Message</span>
+        <textarea name="message" maxlength="400" rows="6" placeholder="Write your message (400 characters max)" required></textarea>
+        <span class="counter" aria-live="polite">400 characters left</span>
+      </label>
+
+      <button class="contact-submit" type="submit">Send message</button>
+      <p class="contact-note">Tip: connect this form to your provider (Formspree, Netlify Forms, or your backend) before going live.</p>
+    </form>
+  </div>
+</footer>
+
+<style>
+  .contact-footer{
+    background:#f1f5f9;           /* light gray-blue */
+    color:#0f172a;
+    border-top:1px solid #e2e8f0;
+    padding:36px 0 48px;
+  }
+  .contact-wrap{
+    max-width:1000px;
+    margin:0 auto;
+    padding:0 20px;
+  }
+  .contact-title{
+    margin:0 0 12px;
+    font-weight:400;
+    letter-spacing:.02em;
+    font-size:22px;
+  }
+  .contact-form{display:grid;gap:14px}
+  .row{display:grid;gap:14px}
+  @media (min-width:720px){.row{grid-template-columns:1fr 1fr}}
+
+  .field{display:grid;gap:6px}
+  .label{font-size:14px;color:#475569}
+  input[type="text"], input[type="email"], textarea{
+    width:100%;
+    padding:12px 14px;
+    border:1px solid #cbd5e1;
+    border-radius:10px;
+    background:#ffffff;
+    color:#0f172a;
+  }
+  textarea{resize:vertical}
+  .counter{display:block;margin-top:6px;font-size:12px;color:#64748b}
+
+  .contact-submit{
+    padding:12px 16px;
+    border:1px solid #cbd5e1;
+    border-radius:12px;
+    background:linear-gradient(180deg,#e2e8f0,#cbd5e1);
+    color:#0f172a;
+    cursor:pointer;
+  }
+  .contact-submit:hover{filter:brightness(1.03)}
+  .contact-note{margin:8px 0 0;color:#64748b;font-size:13px}
+</style>
+
+<script>
+  // live character counter for the message box
+  (function () {
+    const textarea = document.querySelector('.contact-form textarea[name="message"]');
+    const counter = document.querySelector('.contact-form .counter');
+    const max = parseInt(textarea.getAttribute('maxlength'), 10);
+
+    const update = () => {
+      const left = Math.max(0, max - textarea.value.length);
+      counter.textContent = left + ' characters left';
+    };
+
+    textarea.addEventListener('input', update);
+    update();
+  })();
+</script>
+
+<!-- Header Ribbon -->
+<header class="ribbon">
+  <div class="wrap inner">
+    <nav class="nav-links">
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#volunteer">Volunteer</a>
+      <a href="mailto:austin@example.com">Email</a>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      <a href="resume.pdf" target="_blank" rel="noopener">Resume</a>
+    </nav>
+
+    <div class="brand">
+      <p class="name">Austin Reinhardt</p>
+      <p class="role">Software Project Manager and Business Systems Analyst</p>
+    </div>
+  </div>
+</header>
+
+<style>
+  .ribbon{
+    background:#f1f5f9;         /* light gray-blue */
+    border-bottom:1px solid #e2e8f0;
+    padding:12px 20px;
+  }
+  .wrap.inner{
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    gap:20px;
+    max-width:1100px;
+    margin:0 auto;
+  }
+  .nav-links{
+    display:flex;
+    flex-wrap:wrap;
+    gap:14px;
+  }
+  .nav-links a{
+    color:#0f172a;
+    text-decoration:none;
+    font-size:15px;
+  }
+  .nav-links a:hover{text-decoration:underline}
+
+  .brand{text-align:right}
+  .brand .name{
+    margin:0;
+    font-size:18px;
+    color:#0f172a;
+  }
+  .brand .role{
+    margin:2px 0 0;
+    font-size:14px;
+    color:#475569;
+  }
+</style>
+
+<style>
+  body, h1, h2, h3, p, a, li, small, input, textarea, button {
+    font-family: Garamond, "Times New Roman", serif;
+  }
+</style>
+
